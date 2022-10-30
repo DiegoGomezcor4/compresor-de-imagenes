@@ -4,7 +4,7 @@ from PIL import Image # python3 -m pip install Pillow
 
 import os
 
-downloadsFolder = "C:\Users\diego\Downloads"
+downloadsFolder = "/Users/Diego/Downloads/"
 
 if __name__ == "__main__":
     for filename in os.listdir(downloadsFolder):
